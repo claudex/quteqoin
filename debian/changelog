@@ -1,11 +1,15 @@
-quteqoin (1.0.0~1.gbp53c3b5) UNRELEASED; urgency=medium
+quteqoin (1.0.0~1.gbp1afb25) UNRELEASED; urgency=medium
 
-  ** SNAPSHOT build @53c3b566f7e1e60edbf2bbf6cc58994a8ed5ce4e **
+  ** SNAPSHOT build @1afb256d66ee26d3d7bdd267f59bef1c8d6b984b **
 
   * UNRELEASED
   * UNRELEASED
+  * test
+  * add rules and control
+  * test
+  * add rules and control
 
- -- Xavier Claude <contact+debian@xavierclaude.be>  Fri, 16 Dec 2016 23:06:58 +0100
+ -- Xavier Claude <contact@xavierclaude.be>  Fri, 16 Dec 2016 23:10:01 +0100
 
 quteqoin (0.35) sid; urgency=medium
 
