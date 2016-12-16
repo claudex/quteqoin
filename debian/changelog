@@ -1,0 +1,14 @@
+quteqoin (1.0.0~1.gbp53c3b5) UNRELEASED; urgency=medium
+
+  ** SNAPSHOT build @53c3b566f7e1e60edbf2bbf6cc58994a8ed5ce4e **
+
+  * UNRELEASED
+  * UNRELEASED
+
+ -- Xavier Claude <contact+debian@xavierclaude.be>  Fri, 16 Dec 2016 23:06:58 +0100
+
+quteqoin (0.35) sid; urgency=medium
+
+  * Initial release. (Closes: #XXXXXX)
+
+ -- Xavier Claude <contact+debian@xavierclaude.be>  Fri, 16 Dec 2016 23:05:31 +0100
