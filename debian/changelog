@@ -1,12 +1,13 @@
-quteqoin (1.0.0) sid; urgency=medium
+quteqoin (1.0.0-2) UNRELEASED; urgency=medium
+
+  * Fix packaging error
+
+ -- Xavier Claude <contact+debian@xavierclaude.be>  Sat, 17 Dec 2016 00:25:10 +0100
+
+quteqoin (1.0.0-1) sid; urgency=medium
 
   * add rules and control
   * Fix build depencies with 1.0.0
 
  -- Xavier Claude <contact+debian@xavierclaude.be>  Sat, 17 Dec 2016 00:07:10 +0100
 
-quteqoin (0.35) sid; urgency=medium
-
-  * Initial release. (Closes: #XXXXXX)
-
- -- Xavier Claude <contact+debian@xavierclaude.be>  Fri, 16 Dec 2016 23:05:31 +0100

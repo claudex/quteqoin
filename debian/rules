@@ -9,5 +9,12 @@
 # Uncomment this to turn on verbose mode.
 #export DH_VERBOSE=1
 
+#Use Qt5
+export QT_SELECT=5
+
 %:
 	dh $@ 
+
+override_dh_auto_build:
+	pandoc -s -t man -o debian/quteqoin.1 debian/manpage.1.md
+	dh_auto_build

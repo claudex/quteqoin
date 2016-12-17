@@ -1,15 +1,16 @@
 Source: quteqoin
 Section: web
 Priority: extra
-Maintainer: Xavier Claude <claude.xavier@gmail.com>
-Build-Depends: debhelper (>= 8.0.0), qtbase5-dev, libnotify-dev, libphonon-dev, qtmultimedia5-dev, libgl1-mesa-glx, qt5-default
-Standards-Version: 3.9.3
-Homepage: http://code.google.com/p/quteqoin/
+Maintainer: Xavier Claude <contact+debian@xavierclaude.be>
+Build-Depends: debhelper (>= 8.0.0), qtbase5-dev, libnotify-dev, qtmultimedia5-dev, libgl1-mesa-glx, pandoc
+Standards-Version: 3.9.6
+Homepage: https://github.com/dguihal/quteqoin
 #Vcs-Git: git://git.debian.org/collab-maint/quteqoin.git
 #Vcs-Browser: http://git.debian.org/?p=collab-maint/quteqoin.git;a=summary
 
 Package: quteqoin
 Architecture: any
-Depends: ${shlibs:Depends}, ${misc:Depends}, libqt5quick5, libnotify4, libgl1-mesa-glx | libgl1, libqt5multimediawidgets5
-Description: Desktop mouling agent in Qt4
- 
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Description: Desktop mouling agent in Qt5
+ Quteqoin allows you to have a desktop application to use the chat
+ protocol named "tribune"
