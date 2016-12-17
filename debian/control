@@ -2,7 +2,7 @@ Source: quteqoin
 Section: web
 Priority: extra
 Maintainer: Xavier Claude <contact+debian@xavierclaude.be>
-Build-Depends: debhelper (>= 8.0.0), qtbase5-dev, libnotify-dev, qtmultimedia5-dev, libgl1-mesa-glx, pandoc
+Build-Depends: debhelper (>= 9.0.0), quilt, qtbase5-dev, libnotify-dev, qtmultimedia5-dev, libgl1-mesa-glx, pandoc
 Standards-Version: 3.9.6
 Homepage: https://github.com/dguihal/quteqoin
 #Vcs-Git: git://git.debian.org/collab-maint/quteqoin.git
