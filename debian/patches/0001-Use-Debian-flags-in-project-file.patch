@@ -1,0 +1,22 @@
+From: Xavier Claude <contact@xavierclaude.be>
+Date: Sat, 17 Dec 2016 02:04:54 +0100
+Subject: Use Debian flags in project file
+
+---
+ quteqoin.pro | 5 +++++
+ 1 file changed, 5 insertions(+)
+
+diff --git a/quteqoin.pro b/quteqoin.pro
+index 5d05ee2..bc6004b 100644
+--- a/quteqoin.pro
++++ b/quteqoin.pro
+@@ -243,4 +243,9 @@ win32 {
+ 		}
+ }
+ 
++QMAKE_CPPFLAGS *= $(shell dpkg-buildflags --get CPPFLAGS)
++QMAKE_CFLAGS   *= $(shell dpkg-buildflags --get CFLAGS)
++QMAKE_CXXFLAGS *= $(shell dpkg-buildflags --get CXXFLAGS)
++QMAKE_LFLAGS   *= $(shell dpkg-buildflags --get LDFLAGS)
++
+ # vim: ts=4 sw=4 sts=4 noexpandtab
